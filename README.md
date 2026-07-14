@@ -2,6 +2,8 @@
 
 PraNexa is a full-stack AI chat assistant built with the MERN stack, powered by Google's Gemini API. It supports real-time streaming responses, markdown/code rendering, image understanding, and per-user authenticated chat history.
 
+🔗 **Live app:** https://pranexa.vercel.app
+
 ## Features
 - 🔐 JWT-based authentication (signup/login)
 - 💬 Real-time streaming AI responses (Server-Sent Events)

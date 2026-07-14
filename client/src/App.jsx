@@ -5,7 +5,7 @@ import Composer from './components/Composer';
 import Auth from './components/Auth';
 import './index.css';
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('pranexa_token'));
